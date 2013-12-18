@@ -15,13 +15,15 @@ public class EtownServiceHelper {
 				System.debug('LoadResult is true');
 				member=new Member();
 				EtownServiceDataContract.LoadStudent_MemberInfo loadMemberInfo=loadStudentResult.MemberInfo;
-				member.setEmail(loadMemberInfo.Email);
-				member.setMemberid(String.valueOf(loadMemberInfo.Member_id));
+				member.email=loadMemberInfo.email;
+				member.memberid=String.valueOf(loadMemberInfo.Member_id);
+				member.mobilephone=loadMemberInfo.MobilePhone;
+				member.status=loadMemberInfo.Status;
 			} 
 		
 			}catch(Exception e)
 			{
-			ExceptionHandler.loginException(e);
+				ExceptionHandler.loginException(e);
 			}
 		return member;
 	
