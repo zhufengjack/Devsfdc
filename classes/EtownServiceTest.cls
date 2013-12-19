@@ -85,4 +85,9 @@ private class EtownServiceTest {
         
         
     }
+    
+    static testMethod void TestPromoterLeads()
+    {
+    	
+    }
 }

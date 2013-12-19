@@ -18,6 +18,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>StaticResource</name>
     </types>
     <version>28.0</version>
