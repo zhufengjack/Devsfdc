@@ -1,5 +1,20 @@
-<apex:page controller="MapStudentController">
+<apex:page controller="MapStudentController" tabStyle="Account">
 <!--@Author:Jack Zhu-->
+<apex:form >
+<apex:pageBlock Title="{!account.name}">
+{!account.name} +{!account.PersonEmail}
 
+
+{!member.email}+{!member.memberid}
+
+<apex:pageBlockSection >
+</apex:pageBlockSection>
+
+
+<apex:pageBlockSection >
+</apex:pageBlockSection>
+</apex:pageBlock>
+
+</apex:form>
 
 </apex:page>

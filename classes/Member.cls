@@ -23,5 +23,14 @@ public class Member {
 		
 	}
 	
+	public string getEmail()
+	{
+		return this.email;
+	}
+	public string getMemberid()
+	{
+		return this.memberid;
+	}
+	
 	
 }
